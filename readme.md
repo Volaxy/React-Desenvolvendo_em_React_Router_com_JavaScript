@@ -17,7 +17,7 @@ URL do curso -> [Desenvolvendo em React Router com JavaScript](https://cursos.al
 
 ***
 
-## 01 - Criando o "Hello, World!"
+## 01 - Criando o Hello, World!
 * Instalar o `react-router-dom`.
     * Utilizamos o comando `npm install react-router-dom` que pegamos da própria [documentação](https://reactrouter.com/en/main/start/tutorial) para instalar a versão 6.
 * Utilizar os componentes `BrowserRouter`, `Routes` e `Route` do `react-router-dom`.
@@ -34,3 +34,13 @@ URL do curso -> [Desenvolvendo em React Router com JavaScript](https://cursos.al
     * Com ele, podemos obter informações da rota que estamos atualmente.
 * Utilizar o componente `NavLink` do `react-router-dom`.
     * Com ele, temos acesso direto à informação do link estar ativo ou não.
+
+## 03 - Rotas Aninhadas
+* Identificar quando utilizar rotas aninhadas.
+    * Colocamos as páginas `Inicio` e `SobreMim` como filhas de `PaginaPadrao`, para que apenas elas reaproveitassem a mesma estrutura. Não queríamos que o `Banner` aparecesse na página 404.
+* Utilizar o componente `Outlet`.
+    * A rota que é pai de outras se responsabiliza por dizer onde elas serão renderizadas com o `Outlet` do `react-router-dom`.
+* Utilizar o atributo `index` do `Route`.
+    * O `index` indica que o caminho da rota é igual ao da rota pai.
+* Diferenciar caminhos relativos e absolutos.
+    * Caminhos absolutos iniciam com `/`, enquanto caminhos relativos iniciam sem a `/`, partindo do caminho da rota pai.
