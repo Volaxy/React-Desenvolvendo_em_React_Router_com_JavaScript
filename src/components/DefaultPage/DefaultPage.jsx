@@ -6,7 +6,6 @@ export default function DefaultPage() {
         <main>
             <Banner />
 
-            {/* The <Outlet /> render the routes children nodes inside a root */}
             <Outlet />
         </main>
     )

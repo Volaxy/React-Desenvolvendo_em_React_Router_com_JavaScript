@@ -1,0 +1,115 @@
+.contentContainer {
+    background-color: var(--dark-blue);
+
+    position: relative;
+    
+    padding: 0 1.5rem 6.5rem;
+    
+    color: var(--white);
+    text-align: center;
+}
+
+.text404 {
+    display: block;
+    
+    margin-bottom: 2rem;
+    
+    color: var(--middle-blue);
+    font-family: var(--secondary-font);
+    font-size: 6rem;
+    font-weight: 700;
+}
+
+.title {
+    margin-bottom: 2rem;
+
+    font-family: var(--secondary-font);
+    font-size: 3rem;
+}
+
+.paragraph {
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+}
+
+.containerButton {
+    margin-top: 3.5rem;
+    margin-left: 30vw;
+
+    text-align: start;
+}
+
+.dogImage {
+    height: 25vw;
+
+    position: absolute;
+    bottom: calc(-25vw * 0.5);
+}
+
+.whiteSpace {
+    height: 40vh;
+}
+
+@media (max-width: 1100px) {
+    .texto404 {
+        margin-bottom: 2.25rem;
+    }
+
+    .containerButton {
+        margin-top: 2.75rem;
+        margin-left: 15vw;
+    }
+
+    .dogImage {
+        height: 50vw;
+
+        bottom: calc(-50vw * 0.65);
+        left: 40vw;
+    }
+
+    .whiteSpace {
+        height: 53vw;
+    }
+}
+
+@media (max-width: 744px) {
+    .contentContainer {
+        padding: 3rem 1rem 17rem;
+    }
+
+    .text404 {
+        font-size: 4rem;
+    }
+
+    .title {
+        font-size: 2.25rem;
+        line-height: 3rem;
+    }
+
+    .paragraph {
+        font-size: 1.125rem;
+        line-height: 1.3125rem;
+    }
+
+    .containerButton {
+        margin: 2.5rem 0 0;
+
+        text-align: center;
+    }
+
+    .dogImage {
+        height: 94vw;
+        max-height: 375px;
+
+        position: absolute;
+        right: 0;
+        bottom: calc(-94vw * 0.3);
+        left: 0;
+
+        margin: 0 auto;
+    }
+
+    .whiteSpace {
+        height: calc(94vw * 0.5);
+    }
+}

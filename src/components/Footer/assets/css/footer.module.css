@@ -1,5 +1,5 @@
 .footer {
-    background-color: var(--azul-escuro);
+    background-color: var(--dark-blue);
     
     display: flex;
     justify-content: center;
@@ -8,5 +8,5 @@
     
     padding: 2rem 0;
 
-    color: var(--branco);
+    color: var(--white);
 }
