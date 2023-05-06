@@ -1,0 +1,15 @@
+.otherPostsTitle {
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+
+    color: #363031;
+    font-size: 2.5rem;
+    font-family: var(--secondary-font);
+}
+
+.recomendedPosts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+}

@@ -52,3 +52,13 @@ URL do curso -> [Desenvolvendo em React Router com JavaScript](https://cursos.al
     * Utilizamos a sintaxe `/caminho/:nomedoparametro` no atributo `path` de uma `Route`.
 * Utilizar o hook `useParams`.
     * Com ele, obtemos os parâmetros passados para uma rota dinâmica.
+
+## 05 - Finalizando o Projeto
+* Componentizar um button.
+    * Criamos o componente `Button`, que recebe props que definem seus estilos.
+* Utilizar o hook `useNavigate`.
+    * Podemos utilizá-lo para fazer navegações mais complexas, como voltar para a página anterior no navegador.
+* Tratar o caso de post não encontrado.
+    * Utilizamos o componente `NoutFound` para quando um post não era encontrado. Vimos duas possíveis soluções para reutilizar o componente `DefaultPage` apenas quando um post era encontrado. Uma delas é aproveitando o `Outlet` e adicionando os componentes `Routes` e `Route` dentro do componente `Post`; outra é adicionando {children} em `DefaultPage` e permitindo ele possa ser utilizado como um componente pai direto.
+* Links com `/` ou sem `/`.
+* Pra que serve o hook `useEffect`.

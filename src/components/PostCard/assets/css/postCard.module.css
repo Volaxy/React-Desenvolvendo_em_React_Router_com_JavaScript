@@ -21,32 +21,11 @@
 .title {
     margin: 1.5rem 0 1.75rem;
 
-    color: var(--azul-escuro);
-    font-family: var(--fonte-secundaria);
+    color: var(--dark-blue);
+    font-family: var(--secondary-font);
     font-size: 1.25rem;
     line-height: 1.75rem;
 }
-
-.readButton {
-    background-color: var(--azul-medio);
-    
-    display: inline-block;
-
-    border: 3px solid var(--azul-medio);
-    border-radius: 24px;
-    padding: 0.75rem 1.5rem;
-    
-    color: var(--branco);
-    font-size: 1.125rem;
-    line-height: 1.125rem;
-    
-    cursor: pointer;
-    transition: 0.2s;
-}
-
-    .readButton:hover {
-        border: 3px solid var(--azul-escuro);
-    }
 
 @media (max-width: 1100px) {
     .post {
@@ -55,11 +34,5 @@
 
     .title {
         font-weight: 600;
-    }
-
-    .readButton {
-        padding: 0.6875rem 1.5rem;
-
-        font-size: 1.375rem;
     }
 }
